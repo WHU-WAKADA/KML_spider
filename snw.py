@@ -24,9 +24,9 @@ for i in range(6, 300):
     if i > 1:
         # 登录
         name = driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/ul[2]/li[1]/input")
-        name.send_keys('18975597126')
+        name.send_keys('your name')
         code = driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/ul[2]/li[3]/input")
-        code.send_keys('Aa123456')
+        code.send_keys('your code')
         ga.movepng(yanzheng, 0.95, 0.5)
         lo_button = driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/span')
 
@@ -47,9 +47,9 @@ for i in range(6, 300):
         login = driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/ul/li[4]")
         login.click()
         name = driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/ul[2]/li[1]/input")
-        name.send_keys('18975597126')
+        name.send_keys('your name')
         code = driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/ul[2]/li[3]/input")
-        code.send_keys('Aa123456')
+        code.send_keys('your code')
         ga.movepng(yanzheng, 0.95, 0.5)
         lo_button = driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/span')
 
